@@ -8,9 +8,13 @@ note: (a / b / c) 表示 思维难度 / 实现难度 / 推荐程度
 
 a ?: b
 
-$\max$
+$\max\limits_{f}$
 
-$\mathrm{max}$
+$\substack{\max\\v\in son}$
+
+$f_x=\sum\limits_{\substack{ffff\\v\in \text{son}_x}}f_v+\max\limits_{v\in\text{son}_x}a_v$ 
+
+
 
 ## 1. dp
 
