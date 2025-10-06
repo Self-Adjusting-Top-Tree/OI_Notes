@@ -16,7 +16,7 @@ $f_x=\sum\limits_{v\in \text{son}_x}f_v$
 
 $+\max\limits_{v\in\text{son}_x}a_v$
 
-$f_x=\sum\limits_{v\in \text{son}_x}f_v$ $$+$$ $\max\limits_{v\in\text{son}_x}a_v$ 
+$f_x=\sum\limits_{v\in \text{son}_x}f_v$  $+$  $\max\limits_{v\in\text{son}_x}a_v$ 
 
 ## 1. dp
 
