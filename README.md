@@ -8,16 +8,6 @@ note: (a / b / c) 表示 思维难度 / 实现难度 / 推荐程度
 
 a ?: b
 
-$\text{test}$
-
-$\max\limits_{f}$
-
-$f_x=\sum\limits_{v\in \text{son}_x}f_v$ 
-
-$+\max\limits_{v\in\text{son}_x}a_v$
-
-$f_x=\sum\limits_{v\in \text{son}_x}f_v$  $+$  $\max\limits_{v\in\text{son}_x}a_v$ 
-
 ## 1. dp
 
 ### 1.1 简单 dp
