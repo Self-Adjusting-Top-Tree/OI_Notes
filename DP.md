@@ -12,8 +12,8 @@
 
 于是转移是显然的, 设 $f_x$ 表示当前考虑了 $x$ 子树内的答案, **不考虑 $x$ 点**, 最多可以拿走多少个蝴蝶: 
 
-+ $f_x=\sum\limits_{v\in \text{son}_x}f_v+\max\limits_{v\in\text{son}_x}a_v$ 
-+ $f_x=\sum\limits_{v\in\text{son}_x}f_v+\max\limits_{w\neq v}(a_v-f_v+\sum\limits_{k\in \text{son}_v}f_k+a_w)$（其中 $w$ 点满足 $t_w=3$）
++ $f_x=\sum\limits_{v\in \text{son}_x}f_v+\max\limits_{v\in\text{son}_x}a_v$  
++ $f_x=\sum\limits_{v\in\text{son}_x}f_v+\max\limits_{w\neq v}(a_v-f_v+\sum\limits_{k\in \text{son}_v}f_k+a_w)$ （其中 $w$ 点满足 $t_w=3$）
 
 答案为 $f_1+a_1$. 
 
